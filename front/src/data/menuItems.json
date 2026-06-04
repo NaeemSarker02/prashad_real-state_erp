@@ -1,0 +1,69 @@
+{
+  "menuItems": [
+    {
+      "title": "Dashboard",
+      "icon": "PieChart",
+      "path": "/"
+    },
+    {
+      "title": "Real Estate",
+      "icon": "Home",
+      "children": [
+        { "title": "Projects", "path": "/real-estate/projects" },
+        { "title": "Floors", "path": "/real-estate/floors" },
+        
+        { "title": "BlocksAndUnits", "path": "/real-estate/blocks-and-units" },
+        { "title": "Units", "path": "/real-estate/units" },
+        { "title": "Leads", "path": "/real-estate/leads" },
+        { "title": "Customers", "path": "/real-estate/customers" },
+        { "title": "Procurements", "path": "/real-estate/procurement" },
+        { "title": "Sales", "path": "/real-estate/sale" },
+        { "title": "Installments", "path": "/real-estate/installment" }
+      ]
+    },
+    {
+      "title": "Rental",
+      "icon": "Building",
+      "children": [
+        { "title": "Rental Projects", "path": "/rental/rental-projects" },
+        { "title": "Rental Floors", "path": "/rental/rental-floors" },
+        { "title": "Rental Blocks", "path": "/rental/rental-blocks" },
+        { "title": "Rental Units", "path": "/rental/rental-units" },
+        { "title": "Rental Leads", "path": "/rental/rental-leads" },
+        { "title": "Rental Installments", "path": "/rental/rental-installments" },
+        { "title": "Tenants", "path": "/rental/tenants" }
+      ]
+    },
+    {
+      "title": "Administration",
+      "icon": "Users",
+      "children": [
+        { "title": "Employees", "path": "/administration/employees" },
+        { "title": "Payroll", "path": "/administration/payroll" },
+        { "title": "Payroll Summary", "path": "/administration/payroll-summary" },
+        { "title": "Transactions", "path": "/administration/transactions" }
+      ]
+    },
+    {
+      "title": "Developer Options",
+      "icon": "Settings",
+      "children": [
+        { "title": "Roles", "path": "/developer/roles" },
+        { "title": "Users", "path": "/developer/users" },
+        { "title": "Payment Types", "path": "/developer/payment-types" },
+        { "title": "Ownerships", "path": "/developer/ownerships" }
+      ]
+    },
+    {
+      "title": "Reports",
+      "icon": "BarChart3",
+      "children": [
+        { "title": "Sales Reports", "path": "/reports/sales-reports" },
+        { "title": "Rental Reports", "path": "/reports/rental-reports" },
+        { "title": "Financial Reports", "path": "/reports/financial-reports" },
+        { "title": "Performance Analytics", "path": "/reports/performance-analytics" },
+        { "title": "Custom Reports", "path": "/reports/custom-reports" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+1. To Create a React Project
+npm create vite@latest project_name(./)
+
+2. Install necessary packages
+npm i react-router-dom axios framer-motion
+
+
+
+A Fully functional Prompt Design-
+
+I want to create a React, Tailwind css and framer motion based light themed Real Estate ERP Dashboard
+Layout Responsive Design with effecient code structure and optimization. 
+
+Firstly, A Sidebar.jsx will be created as a components where  a hamburg will be shown 
+for expand and shrinked. And menu items will be as follows:(Multiple dropdowns will be added)
+Real Estate (Projects,Procuremnets,Floors, Blocks, Units, Leads, Customer, Sells, Installments)
+Rental(Rental Projects, Rental Floors, Rental Blocks, Rental Units, Renta Leads, Rental Installments,
+Tenant)
+
+Administration(Employees, Payroll, Payroll Summary, Transactions)
+Developer Option(Role, User, Payment Types)
+
+Design Should be highly dynamic and mobile responsive also.
+
+Secondly a Header.jsx will be created where Notification icon and dialog will be shown and 
+user icon and dialogs will be shown. Use Outstanding animations for Dialog pop-up.
+
+Thirdly Create a Layout.jsx with sidebar.jsx in the left and header.jsx and content(Outlet) part
+in the right. 
+
+Create the layout.jsx with fully functional responsive structure.  After that 
+a make routing with react router dom in App.jsx.
